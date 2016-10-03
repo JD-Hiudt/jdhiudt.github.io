@@ -10,7 +10,7 @@ body {
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-section#site-nav {
+.site-nav {
   position: fixed;
   top: 0px;
   right: 0px;
@@ -60,13 +60,6 @@ section.option figcaption {
   font-family: Impact, Charcoal, sans-serif;
 }
 
-footer a img {
-  display: inline-block;
-  width: 8%;
-  border: 1px solid black;
-  padding: 1px;
-
-}
 
 nav.icon {
   display: inline-block;
