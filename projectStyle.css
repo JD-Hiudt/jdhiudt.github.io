@@ -1,0 +1,96 @@
+html {
+  background-image:url("images/background.gif");
+}
+
+body {
+  background-image: url("images/background-2.gif");
+  position: relative;
+  margin: 5%;
+  padding: 1%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.site-nav {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  border-bottom: 2px solid grey;
+  padding: 1%;
+}
+
+a:hover {
+  font-weight: bold;
+  color: lawngreen;
+}
+
+a:active {
+  color: red;
+}
+
+a:visted {
+  color: blue;
+}
+
+.content {
+  text-align: center;
+}
+
+section.content img {
+  width: 50%;
+}
+
+.content ul {
+  list-style: none;
+  text-align: center
+}
+
+section#product-options {
+  text-align: center;
+}
+
+section#product-options img {
+  width: 40%;
+}
+
+section.option figcaption {
+  text-align: center;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+
+nav.icon {
+  display: inline-block;
+  width: 2%;
+  max-width: 20px;
+  border: 1px solid black;
+  padding: 1px;
+}
+
+
+@media (max-width: 500px) {
+    nav.text {
+      display: none;
+    }
+    nav.icons a img {
+      display: inline-block;
+      width: 8%;
+      max-width: 20px;
+      border: 1px solid black;
+      padding: 1px;
+    }
+    .content {
+      font-size: 75%;
+    }
+}
+
+@media (min-width: 501px) {
+    nav.text {
+      display: inline-block;
+    }
+    nav.icons {
+        display: none;
+    }
+}
